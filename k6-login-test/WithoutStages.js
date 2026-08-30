@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 
-
+//commented out stages to run the test without stages
 export default function () {
   const res = http.get('https://test.k6.io');
 
